@@ -48,7 +48,11 @@
 }
 
 .nav-links:hover {
-  background-color: #40b985;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
